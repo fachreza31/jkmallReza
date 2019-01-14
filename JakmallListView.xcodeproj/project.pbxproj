@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		5A16625F21E9E15C00C214C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16625E21E9E15C00C214C6 /* AppDelegate.swift */; };
-		5A16626121E9E15C00C214C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16626021E9E15C00C214C6 /* ViewController.swift */; };
 		5A16626421E9E15C00C214C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A16626221E9E15C00C214C6 /* Main.storyboard */; };
 		5A16626621E9E15F00C214C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A16626521E9E15F00C214C6 /* Assets.xcassets */; };
 		5A16626921E9E15F00C214C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A16626721E9E15F00C214C6 /* LaunchScreen.storyboard */; };
 		5A16627421E9E15F00C214C6 /* JakmallListViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16627321E9E15F00C214C6 /* JakmallListViewTests.swift */; };
 		5A16627F21E9E15F00C214C6 /* JakmallListViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16627E21E9E15F00C214C6 /* JakmallListViewUITests.swift */; };
+		5A16629121E9E1FA00C214C6 /* JokesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16629021E9E1FA00C214C6 /* JokesModel.swift */; };
+		5A16629321E9E23500C214C6 /* ValueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16629221E9E23500C214C6 /* ValueModel.swift */; };
+		5A16629721E9E42000C214C6 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16629621E9E42000C214C6 /* AppSettings.swift */; };
+		5A16629921E9E49600C214C6 /* JokesServiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16629821E9E49600C214C6 /* JokesServiceApi.swift */; };
+		5A16629B21E9E72D00C214C6 /* JokesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16629A21E9E72D00C214C6 /* JokesProtocol.swift */; };
+		5A16629F21E9E84D00C214C6 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16629E21E9E84D00C214C6 /* AlertHelper.swift */; };
+		5A1662A521E9E98600C214C6 /* JokesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1662A421E9E98600C214C6 /* JokesTableViewCell.swift */; };
+		5A1662A821E9ED6400C214C6 /* JakCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A1662A621E9ED6400C214C6 /* JakCoreData.xcdatamodeld */; };
+		5A1662AA21E9EFDF00C214C6 /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1662A921E9EFDF00C214C6 /* JokesViewController.swift */; };
+		87DBBC95E390C0D169FE818C /* Pods_JakmallListViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EA5B655DE3FFB35DBFC9DE /* Pods_JakmallListViewTests.framework */; };
+		A70319FE9C8D08904014C737 /* Pods_JakmallListViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5F62D29A223AE9F8DDBAC2 /* Pods_JakmallListViewUITests.framework */; };
+		BAEDBD58AA5C9F93429C99AD /* Pods_JakmallListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496245CBB6E82E066F1C7126 /* Pods_JakmallListView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		496245CBB6E82E066F1C7126 /* Pods_JakmallListView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JakmallListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A16625B21E9E15C00C214C6 /* JakmallListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JakmallListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A16625E21E9E15C00C214C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A16626021E9E15C00C214C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A16626321E9E15C00C214C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A16626521E9E15F00C214C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A16626821E9E15F00C214C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,23 @@
 		5A16627A21E9E15F00C214C6 /* JakmallListViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JakmallListViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A16627E21E9E15F00C214C6 /* JakmallListViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JakmallListViewUITests.swift; sourceTree = "<group>"; };
 		5A16628021E9E15F00C214C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16629021E9E1FA00C214C6 /* JokesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesModel.swift; sourceTree = "<group>"; };
+		5A16629221E9E23500C214C6 /* ValueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueModel.swift; sourceTree = "<group>"; };
+		5A16629621E9E42000C214C6 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		5A16629821E9E49600C214C6 /* JokesServiceApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesServiceApi.swift; sourceTree = "<group>"; };
+		5A16629A21E9E72D00C214C6 /* JokesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesProtocol.swift; sourceTree = "<group>"; };
+		5A16629E21E9E84D00C214C6 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		5A1662A421E9E98600C214C6 /* JokesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesTableViewCell.swift; sourceTree = "<group>"; };
+		5A1662A721E9ED6400C214C6 /* JakCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JakCoreData.xcdatamodel; sourceTree = "<group>"; };
+		5A1662A921E9EFDF00C214C6 /* JokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
+		5D285F89BCE6A3B85EBE50EA /* Pods-JakmallListView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JakmallListView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JakmallListView/Pods-JakmallListView.debug.xcconfig"; sourceTree = "<group>"; };
+		6353C24FF28247CC7DCC9524 /* Pods-JakmallListViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JakmallListViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JakmallListViewTests/Pods-JakmallListViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E5F62D29A223AE9F8DDBAC2 /* Pods_JakmallListViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JakmallListViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EA5B655DE3FFB35DBFC9DE /* Pods_JakmallListViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JakmallListViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB763462D897439EA0A26F72 /* Pods-JakmallListView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JakmallListView.release.xcconfig"; path = "Pods/Target Support Files/Pods-JakmallListView/Pods-JakmallListView.release.xcconfig"; sourceTree = "<group>"; };
+		C05D13DC5C90FCC349ABC1BA /* Pods-JakmallListViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JakmallListViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JakmallListViewTests/Pods-JakmallListViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8613E34A3C4032FAF75C93D /* Pods-JakmallListViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JakmallListViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JakmallListViewUITests/Pods-JakmallListViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ECD3B50F3E2F38551F981B19 /* Pods-JakmallListViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JakmallListViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JakmallListViewUITests/Pods-JakmallListViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAEDBD58AA5C9F93429C99AD /* Pods_JakmallListView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87DBBC95E390C0D169FE818C /* Pods_JakmallListViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A70319FE9C8D08904014C737 /* Pods_JakmallListViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +112,8 @@
 				5A16627221E9E15F00C214C6 /* JakmallListViewTests */,
 				5A16627D21E9E15F00C214C6 /* JakmallListViewUITests */,
 				5A16625C21E9E15C00C214C6 /* Products */,
+				DCF8E6EFC816506920CECB54 /* Pods */,
+				B60C8D37DA1410677DA12352 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +130,17 @@
 		5A16625D21E9E15C00C214C6 /* JakmallListView */ = {
 			isa = PBXGroup;
 			children = (
+				5A16629C21E9E83300C214C6 /* Helper */,
+				5A16629521E9E33600C214C6 /* Protocol */,
+				5A16629421E9E32E00C214C6 /* API */,
+				5A16628C21E9E1B200C214C6 /* Model */,
+				5A16628F21E9E1D200C214C6 /* View */,
+				5A16628E21E9E1C100C214C6 /* Controller */,
 				5A16625E21E9E15C00C214C6 /* AppDelegate.swift */,
-				5A16626021E9E15C00C214C6 /* ViewController.swift */,
-				5A16626221E9E15C00C214C6 /* Main.storyboard */,
 				5A16626521E9E15F00C214C6 /* Assets.xcassets */,
-				5A16626721E9E15F00C214C6 /* LaunchScreen.storyboard */,
 				5A16626A21E9E15F00C214C6 /* Info.plist */,
+				5A16629621E9E42000C214C6 /* AppSettings.swift */,
+				5A1662A621E9ED6400C214C6 /* JakCoreData.xcdatamodeld */,
 			);
 			path = JakmallListView;
 			sourceTree = "<group>";
@@ -125,6 +163,88 @@
 			path = JakmallListViewUITests;
 			sourceTree = "<group>";
 		};
+		5A16628C21E9E1B200C214C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A16629021E9E1FA00C214C6 /* JokesModel.swift */,
+				5A16629221E9E23500C214C6 /* ValueModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A16628E21E9E1C100C214C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A1662A121E9E92C00C214C6 /* TableView */,
+				5A1662A921E9EFDF00C214C6 /* JokesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A16628F21E9E1D200C214C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A16626221E9E15C00C214C6 /* Main.storyboard */,
+				5A16626721E9E15F00C214C6 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A16629421E9E32E00C214C6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5A16629821E9E49600C214C6 /* JokesServiceApi.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5A16629521E9E33600C214C6 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				5A16629A21E9E72D00C214C6 /* JokesProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		5A16629C21E9E83300C214C6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5A16629E21E9E84D00C214C6 /* AlertHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5A1662A121E9E92C00C214C6 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				5A1662A421E9E98600C214C6 /* JokesTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		B60C8D37DA1410677DA12352 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				496245CBB6E82E066F1C7126 /* Pods_JakmallListView.framework */,
+				B7EA5B655DE3FFB35DBFC9DE /* Pods_JakmallListViewTests.framework */,
+				8E5F62D29A223AE9F8DDBAC2 /* Pods_JakmallListViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCF8E6EFC816506920CECB54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D285F89BCE6A3B85EBE50EA /* Pods-JakmallListView.debug.xcconfig */,
+				BB763462D897439EA0A26F72 /* Pods-JakmallListView.release.xcconfig */,
+				C05D13DC5C90FCC349ABC1BA /* Pods-JakmallListViewTests.debug.xcconfig */,
+				6353C24FF28247CC7DCC9524 /* Pods-JakmallListViewTests.release.xcconfig */,
+				ECD3B50F3E2F38551F981B19 /* Pods-JakmallListViewUITests.debug.xcconfig */,
+				E8613E34A3C4032FAF75C93D /* Pods-JakmallListViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A16628321E9E15F00C214C6 /* Build configuration list for PBXNativeTarget "JakmallListView" */;
 			buildPhases = (
+				BF302D5FDD7FE2E3D3667592 /* [CP] Check Pods Manifest.lock */,
 				5A16625721E9E15C00C214C6 /* Sources */,
 				5A16625821E9E15C00C214C6 /* Frameworks */,
 				5A16625921E9E15C00C214C6 /* Resources */,
+				1CC5077A5305A60F9EB7FC1E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A16628621E9E15F00C214C6 /* Build configuration list for PBXNativeTarget "JakmallListViewTests" */;
 			buildPhases = (
+				CEA2A714EB55A977866AF32B /* [CP] Check Pods Manifest.lock */,
 				5A16626B21E9E15F00C214C6 /* Sources */,
 				5A16626C21E9E15F00C214C6 /* Frameworks */,
 				5A16626D21E9E15F00C214C6 /* Resources */,
@@ -167,6 +290,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A16628921E9E15F00C214C6 /* Build configuration list for PBXNativeTarget "JakmallListViewUITests" */;
 			buildPhases = (
+				460F40E500401C9445AE2001 /* [CP] Check Pods Manifest.lock */,
 				5A16627621E9E15F00C214C6 /* Sources */,
 				5A16627721E9E15F00C214C6 /* Frameworks */,
 				5A16627821E9E15F00C214C6 /* Resources */,
@@ -251,13 +375,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CC5077A5305A60F9EB7FC1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JakmallListView/Pods-JakmallListView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkeletonView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JakmallListView/Pods-JakmallListView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		460F40E500401C9445AE2001 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JakmallListViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF302D5FDD7FE2E3D3667592 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JakmallListView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEA2A714EB55A977866AF32B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JakmallListViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A16625721E9E15C00C214C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A16626121E9E15C00C214C6 /* ViewController.swift in Sources */,
+				5A16629B21E9E72D00C214C6 /* JokesProtocol.swift in Sources */,
+				5A16629121E9E1FA00C214C6 /* JokesModel.swift in Sources */,
+				5A16629321E9E23500C214C6 /* ValueModel.swift in Sources */,
+				5A1662AA21E9EFDF00C214C6 /* JokesViewController.swift in Sources */,
+				5A16629F21E9E84D00C214C6 /* AlertHelper.swift in Sources */,
+				5A1662A521E9E98600C214C6 /* JokesTableViewCell.swift in Sources */,
+				5A16629721E9E42000C214C6 /* AppSettings.swift in Sources */,
+				5A1662A821E9ED6400C214C6 /* JakCoreData.xcdatamodeld in Sources */,
 				5A16625F21E9E15C00C214C6 /* AppDelegate.swift in Sources */,
+				5A16629921E9E49600C214C6 /* JokesServiceApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,11 +637,13 @@
 		};
 		5A16628421E9E15F00C214C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D285F89BCE6A3B85EBE50EA /* Pods-JakmallListView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UXATR22W2N;
 				INFOPLIST_FILE = JakmallListView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,17 +651,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Qlopp.JakmallListView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5A16628521E9E15F00C214C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB763462D897439EA0A26F72 /* Pods-JakmallListView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UXATR22W2N;
 				INFOPLIST_FILE = JakmallListView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,12 +671,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Qlopp.JakmallListView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		5A16628721E9E15F00C214C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C05D13DC5C90FCC349ABC1BA /* Pods-JakmallListViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +699,7 @@
 		};
 		5A16628821E9E15F00C214C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6353C24FF28247CC7DCC9524 /* Pods-JakmallListViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +721,7 @@
 		};
 		5A16628A21E9E15F00C214C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECD3B50F3E2F38551F981B19 /* Pods-JakmallListViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +742,7 @@
 		};
 		5A16628B21E9E15F00C214C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8613E34A3C4032FAF75C93D /* Pods-JakmallListViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -586,6 +801,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A1662A621E9ED6400C214C6 /* JakCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A1662A721E9ED6400C214C6 /* JakCoreData.xcdatamodel */,
+			);
+			currentVersion = 5A1662A721E9ED6400C214C6 /* JakCoreData.xcdatamodel */;
+			path = JakCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5A16625321E9E15C00C214C6 /* Project object */;
 }
